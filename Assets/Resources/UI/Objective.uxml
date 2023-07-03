@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Components/Objective/Objective.uss?fileID=7433441132597879392&amp;guid=846e3ff8564a8c64d8e8188549b27198&amp;type=3#Objective" />
+    <ui:VisualElement name="Objective" class="objective">
+        <ui:Label text="Govno zalupa penis her davalka huj bliadina golovkaGovno zalupa penis her davalka huj bliadina golovka Govno zalupa penis her davalka huj bliadina golovka" display-tooltip-when-elided="true" name="Title" style="flex-shrink: 1; white-space: normal;" />
+        <ui:VisualElement class="objective-progress-container">
+            <ui:VisualElement name="Tick" class="tick hidden" />
+            <ui:Label text="···" display-tooltip-when-elided="true" name="Dots" class="dots hidden" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

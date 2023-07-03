@@ -1,0 +1,103 @@
+.objective {
+    height: auto;
+    background-color: rgb(255, 239, 96);
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    align-items: center;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+.objective > Label {
+    color: rgb(0, 0, 0);
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    margin-left: 20px;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/Itim-Regular.ttf?fileID=12800000&guid=3fac6961432a63e43b68bce7300552fd&type=3#Itim-Regular');
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tick {
+    background-image: url('project://database/Assets/UI/Images/Vector%201.png?fileID=2800000&guid=9c635b9e695f77b459321a35e4b6ac82&type=3#Vector 1');
+    width: 17px;
+    height: 17px;
+    position: absolute;
+}
+
+.objective-progress-container {
+    background-image: none;
+    background-color: rgb(255, 239, 96);
+    width: 35px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    border-top-left-radius: 17.5px;
+    border-bottom-left-radius: 17.5px;
+    border-top-right-radius: 17.5px;
+    border-bottom-right-radius: 17.5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.tick.hidden {
+    display: none;
+}
+
+.dots {
+    color: rgb(0, 0, 0);
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/Itim-Regular.ttf?fileID=12800000&guid=3fac6961432a63e43b68bce7300552fd&type=3#Itim-Regular');
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    position: absolute;
+}
+
+.dots.hidden {
+    display: none;
+}
+
+.objective-root:focus .objective {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.objective-root:focus > .objective > .objective-progress-container {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}

@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/menu.uss?fileID=7433441132597879392&amp;guid=d27000bb786c69e4d8075ba9557a6b06&amp;type=3#menu" />
+    <ui:VisualElement name="ViewPort" class="menu_viewport" style="min-width: 100%; min-height: 100%; height: 100%; width: 100%; display: flex;">
+        <ui:VisualElement name="ColumnMain" focusable="false" class="menu_column">
+            <ui:VisualElement name="Title" class="menu_title" style="height: 349px; -unity-background-scale-mode: scale-to-fit; width: 570px;" />
+            <ui:Button text="-START-" display-tooltip-when-elided="true" name="Start" class="menu_button menu_option" />
+            <ui:Button text="-SETTINGS-" display-tooltip-when-elided="true" name="Settings" class="menu_button menu_option" />
+            <ui:Button text="-EXIT-" display-tooltip-when-elided="true" name="Exit" class="menu_button menu_option" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ColumnSettings" focusable="false" class="menu_column hidden">
+            <ui:Slider label="Master Volume" value="0.5" high-value="0" inverted="false" show-input-field="false" focusable="false" name="MasterVolume" low-value="-80" class="menu_option menu_slider" />
+            <ui:Slider label="Music Volume" value="0" high-value="0" inverted="false" show-input-field="false" focusable="false" name="MusicVolume" low-value="-80" class="menu_option menu_slider" />
+            <ui:Slider label="Sound Effects" value="0" high-value="0" inverted="false" show-input-field="false" focusable="false" name="SfxVolume" low-value="-80" class="menu_option menu_slider" />
+            <ui:Slider label="Camera Sensitivity" value="0.5" high-value="1" inverted="false" show-input-field="false" focusable="false" name="Sensitivity" class="menu_option menu_slider" />
+            <ui:VisualElement name="Fullscreen" focusable="false" class="menu_option" style="flex-direction: row; align-items: center;">
+                <ui:Toggle value="false" name="FullscreenToggle" focusable="false" class="settings_toggle" />
+                <ui:Label text="Fullscreen" class="toggle_text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Phone" class="phone hidden" style="overflow: hidden;">
+            <ui:VisualElement name="AppsScreen" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+                <ui:VisualElement name="Clock" style="height: 30%; justify-content: center; align-items: center;">
+                    <ui:Label text="12:24" display-tooltip-when-elided="true" name="Label" style="align-items: center; justify-content: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-align: middle-center; color: rgb(0, 0, 0); font-size: 40px; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/Itim-Regular.ttf?fileID=12800000&amp;guid=3fac6961432a63e43b68bce7300552fd&amp;type=3#Itim-Regular&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Apps" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="Column1" class="phone-column">
+                        <ui:Button text="&#10;" display-tooltip-when-elided="true" name="ObjectivesApp" focusable="false" class="phone-app" style="background-image: url(&apos;project://database/Assets/Resources/Images/Checklist_App_square_.png?fileID=2800000&amp;guid=49d150dc484ae4d408a305716c030d4c&amp;type=3#Checklist_App_square_&apos;);" />
+                        <ui:Button text="&#10;" display-tooltip-when-elided="true" name="SettingsApp" focusable="false" class="phone-app" style="background-image: url(&apos;project://database/Assets/Resources/Images/Settings_App_square.png?fileID=2800000&amp;guid=d1986f31c22ea2748a1ee4f5b14f0e58&amp;type=3#Settings_App_square&apos;);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Column2" class="phone-column">
+                        <ui:Button text="&#10;" display-tooltip-when-elided="true" name="HousingApp" focusable="false" class="phone-app" style="background-image: url(&apos;project://database/Assets/Resources/Images/Housing_app_square.png?fileID=2800000&amp;guid=ba56553a2acd63b4f89241b39d5a804c&amp;type=3#Housing_app_square&apos;);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ObjectivesScreen" class="in-app" style="background-color: rgb(195, 193, 135);">
+                <ui:Label text="Objectives" display-tooltip-when-elided="true" class="title" />
+                <myUI.Objectives name="Objectives" />
+            </ui:VisualElement>
+            <ui:VisualElement name="HousingScreen" class="in-app" style="background-color: rgb(194, 135, 195); top: 0; right: -1px; left: 1px; bottom: 0;">
+                <ui:Label text="Housing" display-tooltip-when-elided="true" name="Label" class="title" />
+                <myUI.Housing name="Housing" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

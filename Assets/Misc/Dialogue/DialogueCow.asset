@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4c8bee43057af4d82c423aa4d65fb6, type: 3}
+  m_Name: DialogueCow
+  m_EditorClassIdentifier: 
+  lines:
+  - 'Cow: Hiya there, kid! What''s happening?'
+  - 'Me: Hi! I''m here for the viewing?'
+  - 'Cow: Viewing? I''d hope you can view me! '
+  - 'Cow: I haven''t turned invisible, right? You can still see me?'
+  - 'Me: No, the house viewing! You know, so I can see the barn?'
+  - 'Cow: Huh? I haven''t put up any viewings anywhere! I live here!'
+  - 'Me: Wh- But, on the app, it says-'
+  - 'Cow: I don''t care about any sorts of app! I''m not planning to leave here!'
+  - 'Cow: Between you and me, kid, sounds like someone''s pulling a scam.'
+  - 'Me: O-oh... Using a photo of your house? That sounds...'
+  - 'Cow: Terrible! I know! It happens more often than you''d think, too.'
+  - 'Me: Well... thank you for warning me, I suppose.'
+  - 'Me: I have two other viewings to check, so.'
+  - 'Cow: No problem! And be careful! This isn''t the only scam people pull!'
+  - '[Phone Updated]'
+  dialogueNoise: {fileID: 8300000, guid: 2ff476fa55201574bb62c984bedf1dd0, type: 3}

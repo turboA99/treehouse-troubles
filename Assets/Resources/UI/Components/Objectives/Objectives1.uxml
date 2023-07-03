@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Components/Objectives/Objectives.uss?fileID=7433441132597879392&amp;guid=c15d3d9f61f395b4389c5eef8bd7bc02&amp;type=3#Objectives" />
+    <ui:ScrollView name="Objectives" vertical-scroller-visibility="Hidden" touch-scroll-type="Clamped" nested-interaction-kind="Default" class="objectives-scroll-view" />
+</ui:UXML>

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4c8bee43057af4d82c423aa4d65fb6, type: 3}
+  m_Name: DialogueFish
+  m_EditorClassIdentifier: 
+  lines:
+  - 'Fish: Oh, what am I going to do, they''ll see through it so fast...'
+  - 'Fish: Oh, this is terrible, I never even wanted this...'
+  - 'Me: Ah, hello! Is this the viewing-'
+  - 'Fish: AAAAAAAAHHHBBLBLBLBLBLBl!'
+  - 'Me: AAAAAA!'
+  - 'Me: IS THAT HOUSE FULL OF WATER?!'
+  - 'Fish: No- Uh! Maybe! '
+  - 'Fish: Yes.'
+  - 'Me: I was wondering why the photo was in black and white!'
+  - 'Me: I should''ve known there was something fishy...'
+  - 'Fish: Well the- house is exactly like advertized otherwise!'
+  - 'Me: I CAN''T BREATHE UNDERWATER!'
+  - 'Me: Sigh... Okay, one more viewing, Sea, and you''re done.'
+  - 'Me: The last one better not be a scam.'
+  - '[Phone Updated]'
+  dialogueNoise: {fileID: 8300000, guid: 899a2e870f5fff543bf88d936189e17e, type: 3}

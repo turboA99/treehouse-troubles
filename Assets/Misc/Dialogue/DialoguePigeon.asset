@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db4c8bee43057af4d82c423aa4d65fb6, type: 3}
+  m_Name: DialoguePigeon
+  m_EditorClassIdentifier: 
+  lines:
+  - 'Pigeon: Hello-'
+  - 'Me: Is this a scam? Is the house going to explode?'
+  - 'Pigeon: Wh-'
+  - 'Me: Are there gremlins living under the floorboards? Is it infested with mites?'
+  - 'Pigeon: Wha- No! Of course not!'
+  - 'Me: Sorry, I just went through two scams in one day. I''m tired.'
+  - 'Pigeon: Well! I''m sorry about that! '
+  - 'Pigeon: But I can assure you this is no scam!'
+  - 'Pigeon: This is a genuine offer. I made sure the pictures would look correct!'
+  - 'Pigeon: It''s a bit small... But I bet it''s just what you need as a student!'
+  - 'Me: Well, it''s definitely more expensive than the previous houses...'
+  - 'Me: But at the same time those weren''t real offers.'
+  - 'Me: And I... kind of couldn''t find anything else that''s available.'
+  - 'Me: Sure, why don''t you show me around. It better be cozy!'
+  - 'Me: I need a good rest after all this crazyness.'
+  dialogueNoise: {fileID: 8300000, guid: 2a079120b6723e3488eaea2fe5401f84, type: 3}
+  endGame: 1

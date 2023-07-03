@@ -1,0 +1,17 @@
+.dim {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 20%;
+}
+
+.dim > Label {
+    font-size: 20px;
+    height: 100%;
+    -unity-text-align: lower-left;
+    color: rgb(242, 93, 255);
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/Itim-Regular.ttf?fileID=12800000&guid=3fac6961432a63e43b68bce7300552fd&type=3#Itim-Regular');
+    padding-bottom: 15px;
+}
